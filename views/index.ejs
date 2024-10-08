@@ -157,8 +157,8 @@
       
 
       return {
-        temperature: parsedData.temp,
-        humidity: parsedData.humidity
+        temperature: parsedData.T,
+        humidity: parsedData.H
       };
     } else {
       throw new Error('No data available.');
